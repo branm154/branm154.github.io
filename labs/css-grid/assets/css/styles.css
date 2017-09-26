@@ -7,13 +7,13 @@ body{
 }
 
 .wrapper {
-	background: #ccc;
+	background: #000;
 	width: 960px;
 	margin: 0 auto 0 auto;
 }
 
 .c{display: inline-block;
-	background: #ffa;
+	background: #000;
 	margin: 0 15px 50px 15px;
 	font-size: 15px;}
 
@@ -21,7 +21,7 @@ body{
 	.no-left-gutter {margin-right: 0; }
 	.whitespace-fix {font-size: 0;}
 .c1 {width: 130px;}
-.c2{width: 290px; background: #fff;}
+.c2{width: 290px; background: #000;}
 .c3{width: 450px;}
 .c4{width:610px;}
 .c5{width:770px;}
