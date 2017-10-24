@@ -12,7 +12,7 @@ $('.nav-item').click(function(){
 		$('.lightbox').removeClass('hide');
 		$('audio')[0].play();
 	} else if (button_name == 'about') 
-	$('.about-text').removeClass('hide');
+	$('.aries-text').removeClass('hide');
 
 });
 
