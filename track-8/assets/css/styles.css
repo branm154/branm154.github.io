@@ -1,0 +1,56 @@
+*{ box-sizing: border-box; }
+
+body {
+	background: #fff;
+	font-size: 10;
+	font-family: Helvetica;
+	margin: 100px;
+}
+.wrapper{
+	margin: 0 auto;
+}
+
+.c{
+	display: inline-block;
+	padding: 0px 70px 0px 0px;
+	margin: 0px 30px 20px 0px;
+	font-size: 20px;
+	top: 0%;
+	bottom: 0%;
+}
+.c1{width: 60%;}
+.c2{width: 90%;}
+.c3{width: 120%;}
+
+.button1 {
+	width: 260px;
+	height: 441px;
+	background: url(../img/lovers.png) no-repeat;
+	transition: all 500ms ease;
+	font-size: 20px;
+}
+.button1:hover {
+	background-position: -260px 0;
+}
+
+.button2 {
+	width: 260px;
+	height: 441px;
+	background: url(../img/sunfinal.png) no-repeat;
+	transition: all 500ms ease;
+	font-size: 20px;
+}
+.button2:hover {
+	background-position: -260px 0;
+}
+
+.button3 {
+	width: 260px;
+	height: 441px;
+	background: url(../img/foolfinal.png) no-repeat;
+	transition: all 500ms ease;
+	font-size: 20px;
+}
+.button3:hover {
+	background-position: -260px 0;
+}
