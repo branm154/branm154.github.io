@@ -1,0 +1,99 @@
+
+* { box-sizing: border-box;
+	vertical-align: top;
+ }
+
+body { 
+	background: url('../img/background.png'); }
+}
+
+.wrapper {
+	display: inline-block;
+	width:786px;
+	height: 1024px;
+	background: #000;
+	margin: 0 auto 0 auto;
+
+}
+.c1 {
+	display: inline-block;
+	width: 128px;
+	height: 128px;
+	background: url(../img/cancer.png)
+}
+.c2 {
+	display: inline-block;
+	width: 128px;
+	height: 128px;
+	background: url(../img/libra.png)
+}
+
+.c3 {
+	display: inline-block;
+	width: 128px;
+	height: 128px;
+	background: url(../img/leo.png)
+}
+
+.c4 {
+	display: inline-block;
+	width: 128px;
+	height: 128px;
+	background: url(../img/pisces.png)
+}
+
+.c5 {
+	display: inline-block;
+	width: 128px;
+	height: 128px;
+	background: url(../img/virgo.png)
+}
+
+.c6 {
+	display: inline-block;
+	width: 128px;
+	height: 128px;
+	background: url(../img/gemini.png)
+}
+
+.c7 {
+	display: inline-block;
+	width: 128px;
+	height: 128px;
+	background: url(../img/aries.png)
+}
+
+.c8 {
+	display: inline-block;
+	width: 128px;
+	height: 128px;
+	background: url(../img/taurus.png)
+}
+
+.c9 {
+	display: inline-block;
+	width: 128px;
+	height: 128px;
+	background: url(../img/scorpio.png)
+}
+
+.c10 {
+	display: inline-block;
+	width: 128px;
+	height: 128px;
+	background: url(../img/aquarius.png)
+}
+
+.c11 {
+	display: inline-block;
+	width: 128px;
+	height: 128px;
+	background: url(../img/sagittarius.png)
+}
+
+.c12 {
+	display: inline-block;
+	width: 128px;
+	height: 128px;
+	background: url(../img/capricorn.png)
+}
