@@ -36,7 +36,7 @@ body {
 .button2 {
 	width: 260px;
 	height: 441px;
-	background: url(../img/sunfinal.png) no-repeat;
+	background: url(../img/foolcopy.png) no-repeat;
 	transition: all 500ms ease;
 	font-size: 20px;
 }
@@ -47,7 +47,7 @@ body {
 .button3 {
 	width: 260px;
 	height: 441px;
-	background: url(../img/foolfinal.png) no-repeat;
+	background: url(../img/foolreal.png) no-repeat;
 	transition: all 500ms ease;
 	font-size: 20px;
 }
