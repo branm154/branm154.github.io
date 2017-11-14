@@ -54,3 +54,13 @@ body {
 .button3:hover {
 	background-position: -260px 0;
 }
+.button4 {
+	width: 260px;
+	height: 441px;
+	background: url(../img/fool.png) no-repeat;
+	transition: all 500ms ease;
+	font-size: 20px;
+}
+.button4:hover {
+	background-position: -260px 0;
+}
