@@ -2,19 +2,24 @@
 	vertical-align: top;
  }
 body {
-	background: url('../img/zebra.jpg');
-	font-family: arial;
+	background: url('../img/grandmashouse.jpg');
+	font-family: impact;
 	font-size: 20px;
 	line-height: 28px;
 	letter-spacing: 5px;
-	margin: 0;
-	padding: 50px;
-	color: #ff00de;
+	margin: 0px;
+	padding: 80px;
+	color: #000;
 	font-weight: bold;
 }
-
+.s{
+	color: #000;
+	border: 2px solid #fff;
+	background: #fff;
+	margin: 10px 10px 10px 10px;
+}
 .about{
-	color: #ff00de;
+	color: #000;
 	border: 2px solid #fff;
 	background: #fff;
 }
@@ -25,11 +30,10 @@ h1, h2 {
 	font-weight: normal; 
 	font-weight: bolder;
 	cursor: pointer;
-	border: 2px solid #fff;
 	background: #fff;	
 }
 
-a{ color: #ff00de; }
+a{ color: #000; }
 
 
 div{
@@ -45,8 +49,4 @@ ul {
 }
 p {width: 710px}
 
-.s{
-	border: 2px solid #fff;
-	background: #fff;
 
-}
