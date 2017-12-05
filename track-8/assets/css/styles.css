@@ -4,63 +4,21 @@ body {
 	background: #fff;
 	font-size: 10;
 	font-family: Helvetica;
-	margin: 100px;
-}
-.wrapper{
-	margin: 0 auto;
 }
 
-.c{
-	display: inline-block;
-	padding: 0px 70px 0px 0px;
-	margin: 0px 30px 20px 0px;
+.b {
+	width: 225px;
+	height: 450px;
+	background: url(../img/bathroomdoor.png) no-repeat;
 	font-size: 20px;
-	top: 0%;
-	bottom: 0%;
-}
-.c1{width: 60%;}
-.c2{width: 90%;}
-.c3{width: 120%;}
-
-.button1 {
-	width: 260px;
-	height: 441px;
-	background: url(../img/lovers.png) no-repeat;
 	transition: all 500ms ease;
-	font-size: 20px;
-}
-.button1:hover {
-	background-position: -260px 0;
+	position: absolute;
+	margin-top: 195px;
+	margin-left: 900px;
+	display: none;
 }
 
-.button2 {
-	width: 260px;
-	height: 441px;
-	background: url(../img/foolcopy.png) no-repeat;
-	transition: all 500ms ease;
-	font-size: 20px;
-}
-.button2:hover {
-	background-position: -260px 0;
-}
-
-.button3 {
-	width: 260px;
-	height: 441px;
-	background: url(../img/foolreal.png) no-repeat;
-	transition: all 500ms ease;
-	font-size: 20px;
-}
-.button3:hover {
-	background-position: -260px 0;
-}
-.button4 {
-	width: 260px;
-	height: 441px;
-	background: url(../img/fool.png) no-repeat;
-	transition: all 500ms ease;
-	font-size: 20px;
-}
-.button4:hover {
-	background-position: -260px 0;
+.b:hover {
+	background-position: -215px 0;
+	/*transform: translate(-100%,-100%);*/
 }

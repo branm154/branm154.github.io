@@ -1,32 +1,21 @@
 *{ box-sizing: border-box; }
-
-body {
-	background: #fff;
-	font-size: 0;
-}
-.wrapper{
-	margin: 0 auto;
-}
-
-.c{
-	display: inline-block;
-	padding: 0px 70px 0 0px;
-	margin: 50px 0px 50px 0px;
-	background: #f1f1f1;
-	font-size: 20px;
-	top: 90%;
-	bottom: 50%;
-}
-.c1{width: 60%; }
-.c2{width: 60%;}
-
-.button {
-	width: 650px;
-	height: 650px;
-	background: url(../img/group.png) no-repeat;
-	border-radius: 100%;
+body{
+	font-family: helvetica;
 	font-size: 20px;
 }
-.button:hover {
-	background-position: -655px 0;
+.b {
+	width: 170px;
+	height: 450px;
+	background: url(../img/doorkitchen.png) no-repeat;
+	font-size: 20px;
+	transition: all 500ms ease;
+	position: relative;
+	margin-left: 100px;
+	float:left;
+	margin-top: 500px;
+}
+
+.b:hover {
+	background-position: -180px 0;
+	/*transform: translate(-100%,-100%);*/
 }

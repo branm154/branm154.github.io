@@ -2,91 +2,25 @@
 	vertical-align: top;
  }
 
-body {
-	margin: 0;
-	padding: 0;
-	font-size: 0;
-}
-
-html, body { height: 100%; }
-
-.wrapper {
-	width: 100%;
-	height: 100%;
-}
-
-
-.column {
-	width: 100%;
-	display: inline-block;
-	height: 40%;
-	font-size:20px;
-	padding: 50px;
-
-}
-
-.content {
-	background: #f1f1f1;
-}
-
- ul, li {
- 	list-style: none;
- 	margin: 0;
- 	padding: 0;
+ .c {
+ 	width: 100%;
+ 	position: absolute;
  }
 
- .nav-item {
- 	border: 3px solid #F2E4D7;
- 	padding: 10px 20px;
- 	display: inline-block;
- 	font-size: 20px;
- 	margin: 0 10px 30px 50px;
- 	cursor: pointer;
+  .b{
+ 	background: url("../img/basementdoor.png") no-repeat;
+ 	width: 225px;
+ 	height: 450px;
+ 	position: absolute;
+ 	left: 43%;
+ 	transition: all 500ms ease;
+ 	margin-top: 100px;
+
  }
 
- .nav-item:hover, .nav-item.active {
- 	background: #000;
- 	color: #fff;
- }
-
-.content.aries {background: #ff0000}
-.content.taurus {background: #ff8a00;}
-.content.gemini {background: #fffc00;}
-.content.cancer {background: #848484}
-.content.leo { background: #ffba35 }
-.content.virgo {background: #99ff35;}
-.content.libra {background: #f42fe8;}
-.content.scorpio {background: #f42f54;}
-.content.sagittarius {background: #2f9ef4;}
-.content.capricorn {background: #000000;}
-.content.aquarius {background: #4cffec;}
-.content.pisces {background: #38b5cc;}
-
-.lightbox.beyonce {
-	width: 100%;
-	height: 100%;
-	background: #000;
-	color: #fff;
-	position: fixed;
-	top: 0;
-	left: 0;
-}
-
-.slay {
-	font-size: 200px;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
-
-.close-button {
-	position: absolute;
-	top: -5px;
-	right: 30px;
-	font-size: 100px;
-	font-family: impact;
-	cursor: pointer;
+.b:hover {
+	background-position: -215px 0;
+	/*transform: translate(-100%,-100%);*/
 }
 
 .audio { opacity: 0; }
